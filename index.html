@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="card" class="card card-full card-light">
+        <div class="container">
+            <div class="row top"> 
+                <div class="col">
+                    <small class="card-title">POS FAILURE RATE</small>
+                </div>
+                <div class="col">
+                    <div class="icons">
+                        <div id="state-icon" class="state-icon"></div>
+                    <div id="mode-icon" class="mode-icon"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mid">
+                <div class="col">
+                    <div class="values">
+                        <h1 class="percentage-bg">12%</h1>
+                        <p class="percentage-sm">14%</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="range" min="1" max="100" value="50" disabled>
+                </div>
+            </div>
+            <div class="source">
+                <small>Source <span class="bolder">NIBBS</span></small> 
+                <div style="clear: both;"></div>
+            </div>
+        </div> 
+        <div id="nav" class="nav">
+            <a class="active" href="#">Daily</a>
+            <a href="#">Monthly</a>
+            <a href="#">Yearly</a>
+        </div>
+    </div>      
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
