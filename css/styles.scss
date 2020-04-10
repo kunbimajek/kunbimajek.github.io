@@ -83,6 +83,11 @@ input[type=range] {
     background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #35bb63), color-stop(50%, #f2f2f2));
 }
 
+
+input[type=range]:disabled {
+    opacity: 1;
+}
+
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none !important;
     background-color: #ffffff;
@@ -154,9 +159,6 @@ input[type=range]::-webkit-slider-thumb {
         width: 100% !important;
         margin-top: 10px;
         background-image: -webkit-gradient(linear, left top, right top, color-stop(60%, #FF005C), color-stop(60%, #f2f2f2)) !important;
-    }
-    input[type=range]:disabled {
-        opacity: 1;
     }
     input[type=range]::-webkit-slider-thumb {
         display: none;
