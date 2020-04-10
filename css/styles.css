@@ -1,6 +1,6 @@
 body {
   background: #000;
-  height: 95vh;
+  height: 100vh;
   display: flex; }
 
 * {
@@ -119,6 +119,9 @@ input[type=range]::-webkit-slider-thumb {
   width: 100% !important;
   margin-top: 10px;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(60%, #FF005C), color-stop(60%, #f2f2f2)) !important; }
+
+.card-minimized input[type=range]:disabled {
+  opacity: 1; }
 
 .card-minimized input[type=range]::-webkit-slider-thumb {
   display: none; }

@@ -1,6 +1,6 @@
 body {
     background: #000;
-    height: 95vh;
+    height: 100vh;
     display: flex;    
 }
   
@@ -24,7 +24,6 @@ body {
     width: 403px;
     box-sizing: border-box;
 }
-
 
 .card {
     margin: auto;
@@ -155,6 +154,9 @@ input[type=range]::-webkit-slider-thumb {
         width: 100% !important;
         margin-top: 10px;
         background-image: -webkit-gradient(linear, left top, right top, color-stop(60%, #FF005C), color-stop(60%, #f2f2f2)) !important;
+    }
+    input[type=range]:disabled {
+        opacity: 1;
     }
     input[type=range]::-webkit-slider-thumb {
         display: none;
